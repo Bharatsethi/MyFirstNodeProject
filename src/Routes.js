@@ -2,8 +2,8 @@
 import React from 'react';
 import { Routes as Switch, Route, Navigate } from "react-router-dom";
 import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/About';
-import ContactPage from './Pages/Contact';
+import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
 
 function Routes() {
   return (
