@@ -24,13 +24,24 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+      <table>
+        <tr>
+          <td>
+            <label>Name</label> 
+            </td>
+            <td><input type="text" name="user_name" /></td>
+            </tr>
+       <tr>
+      <td>
+        <label>Email</label>  </td>
+        <td><input type="email" name="user_email" /></td>
+      </tr>
+      <tr>
+      <td><label>Message</label> </td><td><textarea name="message" /></td>
+      </tr>
+      <br/><br/>
       <input type="submit" value="Send" />
+      </table>
     </form>
   );
 };
