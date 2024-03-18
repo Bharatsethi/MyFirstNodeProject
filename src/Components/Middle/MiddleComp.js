@@ -1,11 +1,16 @@
 import React from 'react';
 import './Middle.css';
 
-const MiddleComp = () => {
+const MiddleComp = ({video}) => {
     return (
-        <div className="Middle">
-            {/* Middle content */}
-        </div>
+        <div>
+        <Thumbnail video={video} />
+        <a href={video.url}>
+          <h3>{video.title}</h3>
+          <p>{video.description}</p>
+        </a>
+        <LikeButton video={video} />
+      </div>
     );
 };
 
