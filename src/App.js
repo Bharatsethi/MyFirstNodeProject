@@ -1,48 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Component from './BharatSethi';
-import MiddleComponent from "./MiddleComponent";
-import Home from './Pages/Home';
-import About from './Pages/About';
-import { useState } from 'react';
-import { Route, Router, Routes } from 'react-router-dom';
+import React from 'react';
+import Routes from './Routes';
+import { Link, useLocation } from "react-router-dom";
+import './App.css'; 
 
 function App() {
-
-  const [data,setdata] = useState(`I am learning react`);
   return (
-
-    <div>
-
-      <Routers>
-      <Route path="/home" component={Home} />
-        <Route path="/about" component={About} />
-          {/* Add more routes as needed */}
-      </Routers>
-              
-  
-      <h1>Parent Component</h1>
-      <Component></Component>
-      <MiddleComponent data={data}></MiddleComponent>
-      <Routes/>
-      </div>
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+    <>
+      <nav>
+        <ul className="nav-links">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes />
+    </>
   );
 }
 

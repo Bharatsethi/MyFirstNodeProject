@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from "react";
-import ChildComponent from "./ChildComponent";
+import ChildComponent from "../Pages/ChildComponent";
 const MiddleComponent = ({data}) => {
     return(
         <div>
