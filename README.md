@@ -1,6 +1,11 @@
+# Install required softwares
+https://nodejs.org/en/download/
+npm install react-bootstrap bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
