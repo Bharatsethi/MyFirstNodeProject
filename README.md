@@ -1,7 +1,15 @@
-# Install required softwares
+# Install required software
 https://nodejs.org/en/download/
 
+https://code.visualstudio.com/
+
 npm install react-bootstrap bootstrap
+
+npm install react-router-dom
+
+npm install axios
+
+Extension for Node JS in Visual Studio Code
 
 # Getting Started with Create React App
 
