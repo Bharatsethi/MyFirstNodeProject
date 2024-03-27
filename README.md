@@ -1,7 +1,13 @@
-# Install required software
-https://nodejs.org/en/download/
+## Install required software
+#Visual Studio Code
 
 https://code.visualstudio.com/
+
+#cURL
+https://curl.se/windows/
+
+#Node.js
+https://nodejs.org/en/download/
 
 npm install react-bootstrap bootstrap
 
