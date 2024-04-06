@@ -3,9 +3,9 @@ import './Left.css';
 
 const LeftComp = () => {
     return (
-        <div className="Left">
-            {/* Left content */}
-        </div>
+        <div >
+        Left Component
+      </div>
     );
 };
 

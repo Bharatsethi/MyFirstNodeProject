@@ -6,8 +6,8 @@ export const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
-
+  
+e.preventDefault();
     emailjs
       .sendForm('service_5szybgo', 'template_sx7khen', form.current, {
         publicKey: 'JJYc1NAubBU2KSLmz',

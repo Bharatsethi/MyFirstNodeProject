@@ -1,0 +1,8 @@
+.Right {
+    padding: 20px;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    border: 1px solid #dee2e6; /* Add border for clarity */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
