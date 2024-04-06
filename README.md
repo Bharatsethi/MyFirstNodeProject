@@ -1,6 +1,31 @@
+## Install required software
+#Visual Studio Code
+
+https://code.visualstudio.com/
+
+#cURL
+https://curl.se/windows/
+
+#Node.js
+https://nodejs.org/en/download/
+
+npm install react-bootstrap bootstrap
+
+npm install react-router-dom
+
+npm install axios
+
+Extension for Node JS in Visual Studio Code
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+npx create-react-app my-app
+
+cd my-app
+
+npm start
 
 ## Available Scripts
 
