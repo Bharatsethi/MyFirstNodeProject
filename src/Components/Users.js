@@ -11,6 +11,10 @@ const Users = () => {
     dispatch(fetchUsers());
   }, [dispatch]);
 
+  if (!users) {
+    return <div>Loading...</div>; // or any other loading indicator
+  }
+
   const handleSearch = (e) => {
     const name = e.target.value;
     dispatch(searchUser(name));
@@ -18,6 +22,7 @@ const Users = () => {
   /*return(
     <div> User API component </div>
   );*/
+
 
   return (
     <div>

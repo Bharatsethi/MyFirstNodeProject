@@ -23,9 +23,10 @@ import Routes from './Routes';
 import { Link } from "react-router-dom";
 import Users from './Components/Users';
 import { Provider } from 'react-redux';
-//import store from './Store'; // Make sure this is the correct path to your Redux store setup file
+import { store } from './store';
+//import store from './store';
+//import { store } from './store';
 import './App.css'; 
-import store from './store';
 import FooterComp from './Components/Footer/FooterComp';
 import HeaderComp from './Components/Header/HeaderComp';
 import LeftComp from './Components/Left/LeftComp';
@@ -33,6 +34,8 @@ import RightComp from './Components/Right/RightComp';
 import MiddleComp from './Components/Middle/MiddleComp';
 function App() {
   return (
+    <Provider store={store}> {/* Wrap the app with Provider and pass the Redux store */}
+ 
     <>
          <HeaderComp />
      
@@ -51,6 +54,7 @@ function App() {
      </div>
      <FooterComp />
     </>
+    </Provider>
   );
 }
 
