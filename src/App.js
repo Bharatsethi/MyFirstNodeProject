@@ -17,8 +17,6 @@ npx create-react-app my-firstreact-project
 cd my-firstreact-project
 Step 2: Start to Create Components (.js files) add them to component folder
 example components in this project: About, Footer, Header, Left, Middle, Right, Users
-Step 3: 
-
 */
 import React from 'react';
 import Routes from './Routes';
@@ -35,7 +33,6 @@ import RightComp from './Components/Right/RightComp';
 import MiddleComp from './Components/Middle/MiddleComp';
 function App() {
   return (
-    <Provider store={store}> {/* Wrap the app with Provider and pass the Redux store */}
     <>
          <HeaderComp />
      
@@ -52,10 +49,8 @@ function App() {
          </div>
        </div>
      </div>
-     <Users /> {/* Render the Users component */}
      <FooterComp />
     </>
-    </Provider>
   );
 }
 

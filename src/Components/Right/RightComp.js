@@ -21,9 +21,9 @@ const RightComp = () => {
             <pre>cd my-firstreact-project</pre>
             <p>Step 2: Start to Create Components (.js files) add them to the component folder</p>
             <p>Example components in this project: About, Footer, Header, Left, Middle, Right, Users</p>
-            <p>Step 3: create a  Nods js Express API : <br>mkdir simple-node-api</br>
-                                                       <br>cd simple-node-api</br>
-                                                       <br>npm init -y</br>
+            <p>Step 3: create a  Nods js Express API : mkdir simple-node-api
+                                                       cd simple-node-api
+                                                       npm init -y
             </p>
             <p>npm install express</p>
             <p>Step 4: Run the server : node server.js</p>

@@ -15,6 +15,9 @@ const Users = () => {
     const name = e.target.value;
     dispatch(searchUser(name));
   };
+  /*return(
+    <div> User API component </div>
+  );*/
 
   return (
     <div>
